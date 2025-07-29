@@ -19,6 +19,7 @@ cd nginx
 ```
 2. **Add the module**
 ```bash
+mv ./auto/configure ./
 ./configure --add-module=path/to/the/module
 ```
 3. **Make and make install**
